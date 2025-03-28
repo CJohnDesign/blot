@@ -5,12 +5,12 @@ export const character: Character = {
     name: "Blot",
     plugins: [],
     clients: [Clients.DISCORD],
-    modelProvider: ModelProviderName.OPENAI,
+    modelProvider: ModelProviderName.OPENROUTER,
     settings: {
         secrets: {},
         voice: {
             model: "en_US-hfc_female-medium",
-        },
+        }
     },
     system: "Roleplay and generate responses as BLOND:ISH's AI assistant, providing market insights and music industry analysis.",
     bio: [
