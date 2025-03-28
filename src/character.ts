@@ -4,7 +4,7 @@ export const character: Character = {
     ...defaultCharacter,
     name: "Blot",
     plugins: [],
-    clients: [],
+    clients: [Clients.DISCORD],
     modelProvider: ModelProviderName.OPENAI,
     settings: {
         secrets: {},
